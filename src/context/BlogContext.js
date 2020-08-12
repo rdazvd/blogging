@@ -11,6 +11,7 @@ const reducer = (state, action) => {
         {
           id: Math.floor(Math.random() * 99999),
           title: action.payload.title,
+          content: action.payload.content,
         },
       ];
     default:
